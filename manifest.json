@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "秋月商品画像ポップアップ",
+    "version": "0.2",
+    "description": "秋月の商品コードを検知するとホバーで商品画像を表示します。ホバー状態の商品をカートに入れることもできます。",
+    "icons": {
+        "48": "icon48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://akizukidenshi.com/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
