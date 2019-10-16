@@ -43,7 +43,6 @@ window.onload = function () {
             "<form method=\"POST\" action=\"/catalog/cart/cart.aspx\">" +
             "<table><tr><td>" +
             "<input type=\"text\" name=\"" + linkURL[i] + "_qty\" value=\"1\" size=\"3\" maxlength=\"5\">" +
-            "<input type=\"text\" name=\"" + "K-14286" + "_qty\" value=\"5\" size=\"3\" maxlength=\"5\">" +
             "</td><td>" +
             "<input type=\"image\" src=\"/img/sys/button/cart.gif\" alt=\"カートへ入れる\">" +
             "<td>" +
